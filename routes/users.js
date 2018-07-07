@@ -56,7 +56,7 @@ router.post('/authenticate', (req, res, next) => {
                 })
             }
             else {
-                return res.json({ success: false, msg: 'Wront password' });
+                return res.json({ success: false, msg: 'Wrong password' });
             }
         });
     });
